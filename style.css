@@ -1,0 +1,50 @@
+div.background{
+    background-image:url(./back.jpg);
+background-position: top;
+padding: 12px;
+height: 858px;
+width: 100%;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+div.transbox{
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 12px;
+    opacity: 0.6;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+div.transbox p {
+    font-size: 24px;
+    width: 50%;
+    margin: 20px;
+    font-weight: bold;
+    color: #000000;
+  }
+  div.transbox span {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+  }
+button{
+ background-color: hsl(35, 84%, 12%);
+ color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    opacity: 1;
+    margin: 25px;
+}
+button:hover {
+    background-color: #fff;
+    color: black;
+}
